@@ -5,6 +5,7 @@ python -m venv venv
 .\venv\Scripts\activate
 pip install django
 django-admin startproject project .
+python manage.py startapp contact
 ```
 
 Configurar o git
@@ -22,6 +23,7 @@ git remote add origin URL_DO_GIT
 
 ```
 git log --oneline
+git push origin main
 
 ```
 
