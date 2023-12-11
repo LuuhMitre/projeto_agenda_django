@@ -27,7 +27,7 @@
         "source.organizeImports": "explicit"
       }
     },
-    "python.languageServer": "Pylance",
+    "python.languageServer": "Jedi",
     "python.formatting.autopep8Args": [
       "--indent-size=4",
       "--max-line-length=80"
